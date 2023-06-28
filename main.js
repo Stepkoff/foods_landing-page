@@ -19,3 +19,5 @@ setInterval(() => {
     icon.nextElementSibling.classList.add('section-1__icon--selected')
   }
 }, 2000)
+
+console.log('test')
