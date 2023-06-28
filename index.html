@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.sass">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Foods</title>
+  </head>
+  <body>
+  <!-- Navbar  -->
+  <nav class="navbar target">
+    <a href="#" class="navbar__link">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </a>
+    <a href="#" class="navbar__link">
+      <i class="fas fa-utensils"></i>
+      <span>Meals</span>
+    </a>
+    <a href="#" class="navbar__link">
+      <i class="fas fa-hamburger"></i>
+      <span>Burger</span>
+    </a>
+    <a href="#" class="navbar__link">
+      <i class="fas fa-pizza-slice"></i>
+      <span>Pizza</span>
+    </a>
+    <a href="#" class="navbar__link">
+      <i class="fas fa-blender-phone"></i>
+      <span>Contact</span>
+    </a>
+  </nav>
+  <div class="menu target"></div>
+
+  <div class="container">
+    <!-- Section 1 -->
+    <section class="section-1">
+      <h1 class="section-title">variety of foods</h1>
+      <div class="section-1__icons">
+        <i class="section-1__icon section-1__icon--selected fas fa-egg"></i>
+        <i class="section-1__icon fas fa-stroopwafel"></i>
+        <i class="section-1__icon fas fa-cheese"></i>
+        <i class="section-1__icon fas fa-hotdog"></i>
+        <i class="section-1__icon fas fa-drumstick-bite"></i>
+        <i class="section-1__icon fas fa-apple-alt"></i>
+        <i class="section-1__icon fas fa-ice-cream"></i>
+        <i class="section-1__icon fas fa-fish"></i>
+        <i class="section-1__icon fas fa-cookie"></i>
+        <i class="section-1__icon fas fa-seedling"></i>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section-2">
+      <h1 class="section-title">popular meals</h1>
+      <div class="cards">
+        <div class="cards__card">
+          <img src="images/card-img-1.png" class="cards__card-img" />
+          <h3 class="cards__card-title">Fish</h3>
+          <button class="cards__card-btn">Order now</button>
+        </div>
+        <div class="cards__card">
+          <img src="images/card-img-2.png" class="cards__card-img" />
+          <h3 class="cards__card-title">Cake</h3>
+          <button class="cards__card-btn">Order now</button>
+        </div>
+        <div class="cards__card">
+          <img src="images/card-img-3.png" class="cards__card-img" />
+          <h3 class="cards__card-title">Lobster</h3>
+          <button class="cards__card-btn">Order now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section-3">
+      <h1 class="section-title">Gallery</h1>
+      <div class="gallery">
+        <a href="#" class="gallery__item" title="Order Now">
+          <img src="./images/gallery-img-1.jpg" class="gallery__item-image" />
+          <h3 class="gallery__item-title">Pancakes</h3>
+          <p class="gallery__item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            commodi possimus iure hic excepturi. Corporis!
+          </p>
+        </a>
+        <a href="#" class="gallery__item" title="Order Now">
+          <img src="./images/gallery-img-2.jpg" class="gallery__item-image" />
+          <h3 class="gallery__item-title">Cupcakes</h3>
+          <p class="gallery__item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            commodi possimus iure hic excepturi. Corporis!
+          </p>
+        </a>
+        <a href="#" class="gallery__item" title="Order Now">
+          <img src="./images/gallery-img-3.jpg" class="gallery__item-image" />
+          <h3 class="gallery__item-title">Hummus</h3>
+          <p class="gallery__item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            commodi possimus iure hic excepturi. Corporis!
+          </p>
+        </a>
+        <a href="#" class="gallery__item" title="Order Now">
+          <img src="./images/gallery-img-4.jpg" class="gallery__item-image" />
+          <h3 class="gallery__item-title">Hamburger</h3>
+          <p class="gallery__item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            commodi possimus iure hic excepturi. Corporis!
+          </p>
+        </a>
+        <a href="#" class="gallery__item" title="Order Now">
+          <img src="./images/gallery-img-5.jpg" class="gallery__item-image" />
+          <h3 class="gallery__item-title">Salmon</h3>
+          <p class="gallery__item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            commodi possimus iure hic excepturi. Corporis!
+          </p>
+        </a>
+        <a href="#" class="gallery__item" title="Order Now">
+          <img src="./images/gallery-img-6.jpg" class="gallery__item-image" />
+          <h3 class="gallery__item-title">Vegetables</h3>
+          <p class="gallery__item-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+            commodi possimus iure hic excepturi. Corporis!
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__text">
+        <h2 class="footer__title">Sign Me Up</h2>
+        <p class="footer__description">
+          BE THE FIRST TO KNOW ABOUT NEW PRODUCTS
+        </p>
+      </div>
+      <form class="footer__form">
+        <input
+          type="email"
+          class="footer__input"
+          placeholder="Enter Your Email"
+        />
+        <button type="submit" class="footer__btn">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+      <p class="footer__copy">CodeAndCreate &copy; All rights reserved</p>
+    </footer>
+
+  </div>
+  <script type="module" src="/main.js"></script>
+  </body>
+</html>
