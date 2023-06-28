@@ -21,3 +21,10 @@ setInterval(() => {
 }, 2000)
 
 console.log('test')
+
+const galleryItems = document.querySelectorAll('.gallery__item')
+galleryItems.forEach((item) => {
+  item.addEventListener('click', (e) => {
+    e.preventDefault()
+  })
+})
