@@ -19,6 +19,12 @@ html
   @media (max-width: 550px)
     font-size: 40%
 
+body
+  min-height: 100vh
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available
+
+
 .section-title
   font-size: 12rem
   font-weight: 900
@@ -137,9 +143,7 @@ html
 .section-1
   width: 100%
   min-height: 100vh
-  min-height: -moz-available
   min-height: -webkit-fill-available
-  min-height: fill-available
   background-color: #333
   display: flex
   flex-direction: column
@@ -169,9 +173,7 @@ html
 .section-2
   width: 100%
   min-height: 100vh
-  min-height: -moz-available
   min-height: -webkit-fill-available
-  min-height: fill-available
   background-color: #222
   display: flex
   flex-direction: column
